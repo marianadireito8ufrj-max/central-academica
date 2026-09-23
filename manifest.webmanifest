@@ -1,0 +1,12 @@
+{
+  "name": "Central Acadêmica | Mariana Monteiro",
+  "short_name": "Central Acadêmica",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f3ea",
+  "theme_color": "#f7f3ea",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
