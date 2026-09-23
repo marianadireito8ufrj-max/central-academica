@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f3ea" />
+  <meta name="description" content="Central Acadêmica pessoal — Direito, FND/UFRJ, 8º período, 2026.2." />
+  <title>Central Acadêmica | Mariana Monteiro</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">
+      <span class="brand-mark">MM</span>
+      <span class="brand-copy"><strong>Mariana Monteiro</strong><small>Central Acadêmica</small></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#cadernos">Cadernos</a>
+      <a href="#semana">Agenda</a>
+      <a href="#biblioteca">Biblioteca</a>
+    </nav>
+
+    <div class="top-actions">
+      <button class="icon-button" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">☾</button>
+      <button class="icon-button mobile-only" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="#inicio">Início</a>
+    <a href="#cadernos">Meus cadernos</a>
+    <a href="#semana">Agenda</a>
+    <a href="#biblioteca">Biblioteca</a>
+    <a href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer">Drive</a>
+    <a href="https://controledepresenca20262.lovable.app/" target="_blank" rel="noreferrer">Presenças</a>
+  </div>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">FND/UFRJ • DIREITO • 8º PERÍODO • 2026.2</span>
+        <h1>Minha Central<br />Acadêmica</h1>
+        <p>Cadernos, materiais, agenda e organização acadêmica reunidos em um só lugar.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#cadernos">📚 Meus cadernos</a>
+          <a class="button button-secondary" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer">📅 Ver agenda</a>
+          <a class="button button-ghost" href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer">☁️ Abrir Drive</a>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-label="Resumo da central">
+        <div class="hero-panel-header">
+          <span>Hoje</span>
+          <strong id="todayLabel">—</strong>
+        </div>
+        <div class="hero-note">
+          <span class="hero-note-icon">✦</span>
+          <div>
+            <small>Seu espaço acadêmico</small>
+            <strong>8 cadernos em um só lugar</strong>
+          </div>
+        </div>
+        <div class="hero-mini-grid">
+          <a href="#cadernos"><strong>08</strong><span>Cadernos</span></a>
+          <a href="https://controledepresenca20262.lovable.app/" target="_blank" rel="noreferrer"><strong>✓</strong><span>Presenças</span></a>
+          <a href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer"><strong>☁</strong><span>Drive</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section overview" aria-labelledby="overview-title">
+      <div class="section-heading compact-heading">
+        <div>
+          <span class="eyebrow">VISÃO GERAL</span>
+          <h2 id="overview-title">Seu semestre, sem perder tempo</h2>
+        </div>
+      </div>
+      <div class="overview-grid">
+        <a class="overview-card" href="#cadernos"><span>📚</span><div><strong>8 cadernos</strong><small>Ver disciplinas</small></div><b>→</b></a>
+        <a class="overview-card" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer"><span>📅</span><div><strong>Agenda</strong><small>Abrir calendário</small></div><b>→</b></a>
+        <a class="overview-card" href="https://controledepresenca20262.lovable.app/" target="_blank" rel="noreferrer"><span>✅</span><div><strong>Presenças</strong><small>Acompanhar semestre</small></div><b>→</b></a>
+        <a class="overview-card" href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer"><span>☁️</span><div><strong>Drive 2026.2</strong><small>Abrir arquivos</small></div><b>→</b></a>
+      </div>
+    </section>
+
+    <section class="section" id="cadernos">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">MEUS CADERNOS</span>
+          <h2>Disciplinas do 8º período</h2>
+          <p>Acesse rapidamente seus cadernos digitais. A Central registra o último caderno aberto neste aparelho.</p>
+        </div>
+      </div>
+
+      <div class="notebook-grid">
+        <article class="notebook-card civil" data-name="Direito Civil VII" data-url="https://caderno-direito-civil-vii-marianadireito8ufrj-max.vercel.app/" data-icon="⚖️">
+          <div class="notebook-top"><span class="notebook-icon">⚖️</span><span class="status">2026.2</span></div>
+          <h3>Direito Civil VII</h3><p>Aulas, anotações e materiais da disciplina.</p>
+          <a class="notebook-link" href="https://caderno-direito-civil-vii-marianadireito8ufrj-max.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+
+        <article class="notebook-card consumidor" data-name="Direito do Consumidor" data-url="https://caderno-direito-consumidor-marianadireito8ufrj-max.vercel.app/" data-icon="🛍️">
+          <div class="notebook-top"><span class="notebook-icon">🛍️</span><span class="status">2026.2</span></div>
+          <h3>Direito do Consumidor</h3><p>Aulas, legislação, jurisprudência e materiais.</p>
+          <a class="notebook-link" href="https://caderno-direito-consumidor-marianadireito8ufrj-max.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+
+        <article class="notebook-card ambiental" data-name="Direito Ambiental" data-url="https://direito-ambiental-marianadireito8ufrj-max.vercel.app/" data-icon="🌿">
+          <div class="notebook-top"><span class="notebook-icon">🌿</span><span class="status">2026.2</span></div>
+          <h3>Direito Ambiental</h3><p>Aulas, legislação ambiental e materiais complementares.</p>
+          <a class="notebook-link" href="https://direito-ambiental-marianadireito8ufrj-max.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+
+        <article class="notebook-card comercial" data-name="Direito Comercial III" data-url="https://caderno-direito-comercial-iii.vercel.app/" data-icon="💼">
+          <div class="notebook-top"><span class="notebook-icon">💼</span><span class="status">2026.2</span></div>
+          <h3>Direito Comercial III</h3><p>Conteúdo das aulas, pesquisa e materiais da disciplina.</p>
+          <a class="notebook-link" href="https://caderno-direito-comercial-iii.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+
+        <article class="notebook-card etica" data-name="Ética Profissional" data-url="https://caderno-etica-profissional.vercel.app/" data-icon="👩‍⚖️">
+          <div class="notebook-top"><span class="notebook-icon">👩‍⚖️</span><span class="status">2026.2</span></div>
+          <h3>Ética Profissional</h3><p>Estatuto, Código de Ética, Provimentos e aulas.</p>
+          <a class="notebook-link" href="https://caderno-etica-profissional.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+
+        <article class="notebook-card trabalho" data-name="Direito do Trabalho II" data-url="https://caderno-direito-trabalho-ii.vercel.app/" data-icon="👷">
+          <div class="notebook-top"><span class="notebook-icon">👷</span><span class="status">2026.2</span></div>
+          <h3>Direito do Trabalho II</h3><p>Aulas, legislação trabalhista e jurisprudência.</p>
+          <a class="notebook-link" href="https://caderno-direito-trabalho-ii.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+
+        <article class="notebook-card monografia" data-name="Monografia Jurídica I" data-url="https://monografia-juridica-i.vercel.app/" data-icon="📖">
+          <div class="notebook-top"><span class="notebook-icon">📖</span><span class="status">2026.2</span></div>
+          <h3>Monografia Jurídica I</h3><p>Pesquisa, metodologia e desenvolvimento da monografia.</p>
+          <a class="notebook-link" href="https://monografia-juridica-i.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+
+        <article class="notebook-card marxismo" data-name="Marxismo e Direito" data-url="https://marxismo-direito.vercel.app/" data-icon="📕">
+          <div class="notebook-top"><span class="notebook-icon">📕</span><span class="status">2026.2</span></div>
+          <h3>Marxismo e Direito</h3><p>Textos, aulas, autores e materiais de estudo.</p>
+          <a class="notebook-link" href="https://marxismo-direito.vercel.app/" target="_blank" rel="noreferrer">Abrir caderno <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section continue-section" id="continuar">
+      <div class="section-heading compact-heading"><div><span class="eyebrow">CONTINUE ESTUDANDO</span><h2>De onde você parou</h2></div></div>
+      <div class="continue-card" id="continueCard">
+        <div class="continue-icon" id="continueIcon">✦</div>
+        <div class="continue-copy">
+          <small>Último caderno acessado</small>
+          <h3 id="continueTitle">Escolha um caderno para começar</h3>
+          <p id="continueText">Depois do primeiro acesso, ele aparecerá aqui automaticamente neste aparelho.</p>
+        </div>
+        <a class="button button-primary disabled" id="continueLink" href="#cadernos" aria-disabled="true">Ver cadernos</a>
+      </div>
+    </section>
+
+    <section class="section split-section" id="semana">
+      <div class="panel agenda-panel">
+        <div class="panel-heading"><div><span class="eyebrow">MINHA SEMANA</span><h2>Agenda acadêmica</h2></div><a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer">Abrir calendário ↗</a></div>
+        <div class="calendar-preview">
+          <div class="calendar-day"><span id="dayNumber">23</span><small id="dayMonth">SET</small></div>
+          <div><small>Organize aulas, provas e compromissos</small><strong>Google Calendar</strong><p>Abra sua agenda para conferir os próximos eventos do semestre.</p></div>
+        </div>
+        <a class="button button-secondary full-mobile" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer">📅 Ver agenda completa</a>
+      </div>
+
+      <div class="panel deadlines-panel">
+        <div class="panel-heading"><div><span class="eyebrow">PRÓXIMOS PRAZOS</span><h2>Entregas</h2></div></div>
+        <div class="empty-state"><span>✓</span><strong>Central pronta para seus prazos</strong><p>Na próxima etapa, podemos sincronizar automaticamente trabalhos e entregas com sua agenda.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="acessos">
+      <div class="section-heading compact-heading"><div><span class="eyebrow">ACESSO RÁPIDO</span><h2>Ferramentas do semestre</h2></div></div>
+      <div class="quick-grid">
+        <a class="quick-card" href="https://controledepresenca20262.lovable.app/" target="_blank" rel="noreferrer"><span>✅</span><div><strong>Controle de Presenças</strong><small>Acompanhe suas presenças no período.</small></div><b>↗</b></a>
+        <a class="quick-card" href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer"><span>☁️</span><div><strong>Drive do 8º Período</strong><small>Arquivos, textos, trabalhos e materiais.</small></div><b>↗</b></a>
+        <a class="quick-card" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer"><span>📅</span><div><strong>Google Calendar</strong><small>Agenda acadêmica e compromissos.</small></div><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="section" id="biblioteca">
+      <div class="section-heading"><div><span class="eyebrow">MINHA BIBLIOTECA</span><h2>Materiais acadêmicos</h2><p>Atalhos para os principais tipos de material. Nesta primeira versão, todos levam ao Drive do período.</p></div></div>
+      <div class="library-grid">
+        <a href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer"><span>📄</span><strong>Textos e PDFs</strong><small>Abrir materiais →</small></a>
+        <a href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer"><span>🎧</span><strong>Textos em áudio</strong><small>Abrir áudios →</small></a>
+        <a href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer"><span>⚖️</span><strong>Legislação</strong><small>Abrir materiais →</small></a>
+        <a href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer"><span>🔎</span><strong>Jurisprudência</strong><small>Abrir pesquisas →</small></a>
+      </div>
+    </section>
+
+    <section class="section semester-banner">
+      <div><span class="eyebrow">CENTRAL ACADÊMICA</span><h2>Tudo o que preciso para o semestre, organizado em um só lugar.</h2></div>
+      <div class="banner-actions"><a class="button button-primary" href="#cadernos">📚 Voltar aos cadernos</a><a class="button button-secondary" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer">📅 Abrir agenda</a></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>Mariana Monteiro</strong><span>Central Acadêmica</span></div>
+    <p>Direito • FND/UFRJ • 8º período • 2026.2</p>
+    <div class="footer-links"><a href="#cadernos">Cadernos</a><a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer">Agenda</a><a href="https://drive.google.com/drive/folders/1kExBe-dIa3AXhz8q4f1byKIeXyxRJgUm?usp=drive_link" target="_blank" rel="noreferrer">Drive</a><a href="https://controledepresenca20262.lovable.app/" target="_blank" rel="noreferrer">Presenças</a></div>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Navegação móvel">
+    <a href="#inicio"><span>⌂</span><small>Início</small></a>
+    <a href="#cadernos"><span>▤</span><small>Cadernos</small></a>
+    <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noreferrer"><span>□</span><small>Agenda</small></a>
+    <button id="moreButton"><span>•••</span><small>Mais</small></button>
+  </nav>
+
+  <script src="/script.js"></script>
+</body>
+</html>
